@@ -55,7 +55,7 @@ export function AppSidebar() {
 
       <div className="p-3">
         <div className="flex items-center gap-3">
-          <Avatar className="mt-1 w-fit border border-black dark:border-white text-xs">
+          <Avatar className="border border-black dark:border-white">
             <AvatarImage src={currentUser.avatar} />
             <AvatarFallback>{currentUser.nickname.charAt(0)}</AvatarFallback>
           </Avatar>
